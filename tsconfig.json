@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "baseUrl": "src",
+      "outDir": "out",
+      "module": "commonjs",
+      "target": "ESNext",
+      "moduleResolution": "node",
+      "lib": [
+        "esnext",
+        "dom"
+      ],
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "typeRoots": [
+        "node_modules/@types"
+    ],
+    "types": [
+      "node"
+    ],
+
+    },
+    "include": [
+      "src/**/*"
+    ]
+}

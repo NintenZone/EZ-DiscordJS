@@ -1,0 +1,18 @@
+{
+  "name": "ez-discordjs",
+  "version": "1.0.0",
+  "description": "A Discord.js framework to help get you started!",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc --build",
+    "start": "cd out && node run.js"
+  },
+  "author": "NintenZone Technologies",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^15.6.1",
+    "discord.js": "^12.5.3",
+    "typescript": "^4.3.2"
+  }
+}
